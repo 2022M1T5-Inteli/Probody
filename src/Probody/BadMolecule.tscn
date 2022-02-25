@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/cells/bad_molecule.png" type="Texture" id=1]
+[ext_resource path="res://BadMolecule.gd" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+
+[node name="BadMolecule" type="KinematicBody2D"]
+position = Vector2( 69, 59 )
+collision_mask = 0
+script = ExtResource( 2 )
+
+[node name="BadMoleculeCollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -1.99999, 1 )
+shape = SubResource( 1 )
+
+[node name="BadMoleculeImage" type="Sprite" parent="."]
+position = Vector2( -2, 3 )
+scale = Vector2( 0.0529247, 0.0529247 )
+texture = ExtResource( 1 )
