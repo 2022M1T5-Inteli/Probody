@@ -17,7 +17,7 @@ Elisa de Oliveira Flemer, Giovanna Rodrigues, João Furquim de Campos Suarez, Ma
 Probody é um simulador de estratégia biomédico que visa informar jovens de forma lúdica acerca da prevenção contra o câncer.
 <br><br>
 <p align="center">
-<img src="https://imgur.com/a/0pqk1Xg" alt="PROBODY" border="0">
+<img src="https://i.imgur.com/uPk7hGH.png" alt="PROBODY" border="0">
   Imagem autoral
 </p>
 
