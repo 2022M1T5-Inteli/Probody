@@ -4,30 +4,26 @@
 <a href= "https://www.inteli.edu.br/"><img src="https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Probody
 
-## Nome do Grupo
+## Colossus-MK1
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: 
+Elisa de Oliveira Flemer, Giovanna Rodrigues, João Furquim de Campos Suarez, Marcos Vinicius Alves de Moura, Thomas Barton e Yasmin Vitória Rocha de Jesus
+
 
 ## Descrição
 
-📜 Descrição curta sobre o que seu projeto faz.
-<br><br>
-Meu projeto é um exemplo de como utilizar o github.
+Probody é um simulador de estratégia biomédico que visa informar jovens de forma lúdica acerca da prevenção contra o câncer.
 <br><br>
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+<img src="https://imgur.com/a/0pqk1Xg" alt="PROBODY" border="0">
+  Imagem autoral
 </p>
 
 
-💡 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-<br><br>
-Meu projeto ajuda estudantes inteli a configurarem seus githubs.
-<br><br>
-May the force be with you!
-<br><br>
+Probody é um simulador de estratégia biomédico. Nesse sentido, objetiva ensinar seu público-alvo—isto é, adolescentes—, as principais causas, fatores de risco e modos de prevenção de cânceres. Para esse fim, Probody coloca o jogador nas fronteiras do sistema imunológico, trabalhando ativamente para destruir, conter e mitigar substâncias cancerígenas antes que elas atinjam as células do personagem principal. Ademais, cabe também ao jogador monitorar diferentes partes do corpo, associando certas atividades com uma maior presença de carcinógenos em órgãos relacionados, e selecionar os melhores hábitos saudáveis para contrabalancear um dado fator de risco. Porém, caso falhe em combater os carcinógenos, o jogador ainda terá a chance de recuperar a partida através de uma fase extra ou da troca de pontos por procedimentos de detecção precoce do câncer, como a mamografia ou o exame de próstata. Assim, procura-se demonstrar, também, que o diagnóstico de neoplasia não é uma sentença de morte, e sim apenas um obstáculo com grandes chances de ser superado com o acompanhamento correto.
+A principal motivação para este projeto é o fato de que 30% a 50% dos casos de carcinoma são preveníveis, segundo a Organização Mundial da Saúde. Isso, somado à estatística de que 9,6 milhões de pessoas morreram dessa doença em 2018, justifica inequivocamente a necessidade de ferramentas lúdicas que alcancem gerações mais jovens quanto à prevenção da neoplasia.
 
 ## 🛠 Estrutura de pastas
 
