@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://FemaleBody.tscn" type="PackedScene" id=1]
 [ext_resource path="res://BottomBar.tscn" type="PackedScene" id=2]
@@ -7,6 +7,8 @@
 [ext_resource path="res://assets/fonts/xolonium-regular.ttf" type="DynamicFontData" id=5]
 [ext_resource path="res://Main.gd" type="Script" id=6]
 [ext_resource path="res://assets/habitIcons/store_icon.png" type="Texture" id=7]
+[ext_resource path="res://assets/Menus/background.jpg" type="Texture" id=8]
+[ext_resource path="res://assets/audios/Digital-Introspection.mp3" type="AudioStream" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 outline_size = 2
@@ -19,16 +21,24 @@ default_font = SubResource( 1 )
 [node name="Main" type="Node"]
 script = ExtResource( 6 )
 
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 504.222, 302 )
+scale = Vector2( 0.162667, 0.162667 )
+texture = ExtResource( 8 )
+
 [node name="FemaleBody" parent="." instance=ExtResource( 1 )]
 position = Vector2( -124, 1 )
 scale = Vector2( 1.5, 1.5 )
 
 [node name="BottomBar" parent="." instance=ExtResource( 2 )]
-position = Vector2( 63, 63 )
+position = Vector2( 43, 58 )
 
 [node name="Headline" parent="." instance=ExtResource( 3 )]
 position = Vector2( -30, -56 )
 scale = Vector2( 0.6, 0.6 )
+
+[node name="TextTimer" type="Timer" parent="Headline"]
+wait_time = 0.1
 
 [node name="HabitsButton" type="Button" parent="."]
 anchor_right = 0.12
@@ -56,6 +66,12 @@ __meta__ = {
 }
 
 [node name="Score" parent="." instance=ExtResource( 4 )]
-position = Vector2( 208, -133 )
+position = Vector2( -109, -202 )
+scale = Vector2( 1.4, 1.4 )
 
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+autoplay = true
+
+[connection signal="timeout" from="Headline/TextTimer" to="Headline" method="display_news"]
 [connection signal="pressed" from="HabitsButton" to="." method="_on_HabitsButton_pressed"]

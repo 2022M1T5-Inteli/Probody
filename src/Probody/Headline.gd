@@ -12,18 +12,16 @@ func _ready():
 # Determina o texto a aparecer na barra
 func set_news(news):
 	$News.text = news
+	$TextTimer.start()
 
 # Mostra o texto
 func display_news():
-	# Loop que deixa mais um caractere vísivel a cada 0,1 segundo enquanto 
-	# o total de caracteres visíveis for menor do que o número caracteres do texto.
-	while $News.visible_characters < $News.text.length():
-		# Espera que um timer de 0,1 segundos termine (sinal "timeout") antes 
-		# de somar 1 a número de caracteres visíveis
-		yield(get_tree().create_timer(0.1), "timeout")
+	if $News.visible_characters < $News.text.length():
 		$News.visible_characters += 1
-	# Emitir sinal de que o texto apareceu por completo. Este sinal está conectado
-	# ao yield() da função tutorial() no script FemaleBody.gd.
-	emit_signal("textReady")
+	else: 
+		$TextTimer.stop()
+		emit_signal("textReady")
+	
+	
 	
 

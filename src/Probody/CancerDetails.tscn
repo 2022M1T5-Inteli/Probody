@@ -1,9 +1,10 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://CancerDetails.gd" type="Script" id=1]
 [ext_resource path="res://assets/habitIcons/salad.png" type="Texture" id=2]
 [ext_resource path="res://assets/Menus/box.png" type="Texture" id=3]
 [ext_resource path="res://assets/fonts/xolonium-regular.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://assets/fonts/RemindSans-Bold.ttf" type="DynamicFontData" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 31
@@ -13,24 +14,25 @@ font_data = ExtResource( 4 )
 default_font = SubResource( 1 )
 
 [sub_resource type="DynamicFont" id=3]
-size = 22
+size = 24
 font_data = ExtResource( 4 )
 
 [sub_resource type="Theme" id=4]
 default_font = SubResource( 3 )
 
 [sub_resource type="DynamicFont" id=5]
-size = 22
+size = 25
 font_data = ExtResource( 4 )
 
 [sub_resource type="Theme" id=6]
 default_font = SubResource( 5 )
 
-[sub_resource type="DynamicFont" id=7]
-font_data = ExtResource( 4 )
+[sub_resource type="DynamicFont" id=9]
+size = 21
+font_data = ExtResource( 5 )
 
 [sub_resource type="Theme" id=8]
-default_font = SubResource( 7 )
+default_font = SubResource( 9 )
 
 [node name="CancerDetails" type="Node2D"]
 position = Vector2( 184, 95 )
@@ -55,10 +57,10 @@ __meta__ = {
 }
 
 [node name="PreventionsTitle" type="Label" parent="."]
-margin_left = 577.0
-margin_top = 230.0
-margin_right = 711.0
-margin_bottom = 257.0
+margin_left = 565.0
+margin_top = 221.25
+margin_right = 721.0
+margin_bottom = 251.25
 theme = SubResource( 4 )
 text = "Prevenções"
 __meta__ = {
@@ -66,25 +68,25 @@ __meta__ = {
 }
 
 [node name="Prevention2" type="Sprite" parent="."]
-position = Vector2( 649, 278 )
+position = Vector2( 648.75, 277 )
 scale = Vector2( 0.0654297, 0.0654297 )
 texture = ExtResource( 2 )
 
 [node name="Prevention3" type="Sprite" parent="."]
-position = Vector2( 699, 277 )
+position = Vector2( 700, 277 )
 scale = Vector2( 0.0654297, 0.0654297 )
 texture = ExtResource( 2 )
 
 [node name="Prevention1" type="Sprite" parent="."]
-position = Vector2( 596, 278 )
+position = Vector2( 596, 277 )
 scale = Vector2( 0.0654297, 0.0654297 )
 texture = ExtResource( 2 )
 
 [node name="RisksTitle" type="Label" parent="."]
-margin_left = 403.0
-margin_top = 229.0
-margin_right = 584.0
-margin_bottom = 256.0
+margin_left = 400.0
+margin_top = 218.75
+margin_right = 581.0
+margin_bottom = 249.75
 theme = SubResource( 6 )
 text = "Riscos"
 __meta__ = {
@@ -92,10 +94,10 @@ __meta__ = {
 }
 
 [node name="Diagnosis" type="Label" parent="."]
-margin_left = 405.0
-margin_top = 336.0
-margin_right = 675.0
-margin_bottom = 363.0
+margin_left = 412.5
+margin_top = 336.25
+margin_right = 682.5
+margin_bottom = 367.25
 theme = SubResource( 6 )
 text = "Diagnóstico: "
 align = 1
@@ -113,10 +115,10 @@ __meta__ = {
 }
 
 [node name="Risk1" type="Label" parent="."]
-margin_left = 406.0
-margin_top = 255.0
-margin_right = 458.0
-margin_bottom = 298.0
+margin_left = 402.5
+margin_top = 248.75
+margin_right = 457.5
+margin_bottom = 301.75
 theme = SubResource( 8 )
 text = "risco1
 "
@@ -125,10 +127,10 @@ __meta__ = {
 }
 
 [node name="Risk2" type="Label" parent="."]
-margin_left = 405.0
-margin_top = 272.0
-margin_right = 457.0
-margin_bottom = 315.0
+margin_left = 402.0
+margin_top = 275.0
+margin_right = 462.0
+margin_bottom = 328.0
 theme = SubResource( 8 )
 text = "risco2
 "
@@ -137,10 +139,10 @@ __meta__ = {
 }
 
 [node name="Risk3" type="Label" parent="."]
-margin_left = 405.0
-margin_top = 291.0
-margin_right = 457.0
-margin_bottom = 334.0
+margin_left = 402.0
+margin_top = 300.0
+margin_right = 462.0
+margin_bottom = 353.0
 theme = SubResource( 8 )
 text = "risco3
 "

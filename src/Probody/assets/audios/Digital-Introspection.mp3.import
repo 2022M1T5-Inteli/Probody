@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Digital-Introspection.mp3-1ed09c64de0fc5d173883279825a09ea.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/Digital-Introspection.mp3"
+dest_files=[ "res://.import/Digital-Introspection.mp3-1ed09c64de0fc5d173883279825a09ea.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

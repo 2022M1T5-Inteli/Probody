@@ -1,0 +1,61 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://FemaleBody.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BottomBar.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Headline.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Score.tscn" type="PackedScene" id=4]
+[ext_resource path="res://assets/fonts/xolonium-regular.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://Main.gd" type="Script" id=6]
+[ext_resource path="res://assets/habitIcons/store_icon.png" type="Texture" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+outline_size = 2
+outline_color = Color( 0.0588235, 0.27451, 0.584314, 1 )
+font_data = ExtResource( 5 )
+
+[sub_resource type="Theme" id=2]
+default_font = SubResource( 1 )
+
+[node name="Main" type="Node"]
+script = ExtResource( 6 )
+
+[node name="FemaleBody" parent="." instance=ExtResource( 1 )]
+position = Vector2( -124, 1 )
+scale = Vector2( 1.5, 1.5 )
+
+[node name="BottomBar" parent="." instance=ExtResource( 2 )]
+position = Vector2( 63, 63 )
+
+[node name="Headline" parent="." instance=ExtResource( 3 )]
+position = Vector2( -30, -56 )
+scale = Vector2( 0.6, 0.6 )
+
+[node name="HabitsButton" type="Button" parent="."]
+anchor_right = 0.12
+anchor_bottom = 0.197
+margin_left = 881.0
+margin_top = 467.0
+margin_right = 870.12
+margin_bottom = 454.8
+icon = ExtResource( 7 )
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HabitsButtonLabel" type="Label" parent="HabitsButton"]
+margin_left = 18.0
+margin_top = 112.0
+margin_right = 94.0
+margin_bottom = 132.0
+theme = SubResource( 2 )
+text = "HÁBITOS"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Score" parent="." instance=ExtResource( 4 )]
+position = Vector2( 208, -133 )
+
+[connection signal="pressed" from="HabitsButton" to="." method="_on_HabitsButton_pressed"]

@@ -1,23 +1,30 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://assets/body/lungs.png" type="Texture" id=1]
-[ext_resource path="res://CeliaCell.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Celinha.tscn" type="PackedScene" id=2]
 [ext_resource path="res://BadMolecule.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Lungs.gd" type="Script" id=4]
 [ext_resource path="res://Score.tscn" type="PackedScene" id=5]
 [ext_resource path="res://assets/fonts/xolonium-regular.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://assets/Menus/background.jpg" type="Texture" id=7]
+[ext_resource path="res://assets/audios/8-Bit-Perplexion.mp3" type="AudioStream" id=8]
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=4]
 font_data = ExtResource( 6 )
 
 [sub_resource type="Theme" id=3]
-default_font = SubResource( 2 )
+default_font = SubResource( 4 )
 
 [node name="Lungs" type="Node2D"]
 position = Vector2( 35, 16 )
 scale = Vector2( 1.2, 1.2 )
 script = ExtResource( 4 )
 badMolecule = ExtResource( 3 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 462.5, 331.667 )
+scale = Vector2( 0.160889, 0.160889 )
+texture = ExtResource( 7 )
 
 [node name="LungsRigidBody" type="StaticBody2D" parent="."]
 position = Vector2( -70, -32.3077 )
@@ -33,7 +40,7 @@ scale = Vector2( 1.10397, 1.10397 )
 build_mode = 1
 polygon = PoolVector2Array( 615, 198, 666, 238, 693.406, 272.629, 714.545, 319.431, 730.397, 379.819, 737.19, 445.492, 732.661, 483.989, 705.637, 509.073, 653.1, 505.45, 603.279, 487.334, 556.78, 463.608, 532, 436, 519.791, 417.561, 517, 401, 511, 348, 515, 303, 510.734, 267.346, 503.186, 234.887, 491.108, 218.281, 480.54, 232.623, 473.746, 266.591, 469.217, 309.618, 470, 354, 464, 409, 446.572, 445.492, 404.904, 473.746, 348.742, 496.392, 305.414, 506.635, 269.936, 507.262, 250.913, 490.051, 250.31, 462.853, 249.554, 443.98, 250.31, 409.259, 260.878, 346.606, 279.749, 298.295, 296.356, 266.591, 318, 235, 346.176, 212.242, 373, 194, 425.436, 169.215, 459, 169, 476.766, 172.234, 485, 138, 482, 95, 485, 87, 497, 86, 502, 101, 502, 129, 508, 171, 530, 167, 577, 176, 600, 189, 603, 191 )
 
-[node name="CeliaCell" parent="." instance=ExtResource( 2 )]
+[node name="Celinha" parent="." instance=ExtResource( 2 )]
 position = Vector2( 29, 309 )
 scale = Vector2( 1.2, 1.2 )
 
@@ -41,7 +48,8 @@ scale = Vector2( 1.2, 1.2 )
 autostart = true
 
 [node name="Score" parent="." instance=ExtResource( 5 )]
-position = Vector2( 8.33333, -155.833 )
+position = Vector2( -168.333, -186.667 )
+scale = Vector2( 1.2, 1.2 )
 
 [node name="ReturnButton" type="Button" parent="."]
 margin_left = -15.8333
@@ -77,6 +85,10 @@ position = Vector2( 357.5, 229.167 )
 
 [node name="Position8" type="Position2D" parent="."]
 position = Vector2( 651.667, 392.5 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 8 )
+autoplay = true
 
 [connection signal="timeout" from="SpawnTimer" to="." method="_on_SpawnTimer_timeout"]
 [connection signal="pressed" from="ReturnButton" to="." method="_on_ReturnButton_pressed"]

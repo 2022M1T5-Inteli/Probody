@@ -35,7 +35,7 @@ func _on_LiverArea_input_event(viewport, event, shape_idx):
 	if event is InputEventMouseButton \
 	and event.button_index == BUTTON_LEFT \
 	and event.is_pressed():
-		print("Click")
+		get_tree().change_scene("res://Liver.tscn")
 
 # Função que troca a tela principal pela tela do estômago. Segue a mesma
 # lógica da primeira, porém ainda não troca a cena, pois a cena-destino ainda 
