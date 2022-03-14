@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/8-Bit-Perplexion.mp3-48e8afb3b0a81ae19928d29c4e349e5c.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/8-Bit-Perplexion.mp3"
+dest_files=[ "res://.import/8-Bit-Perplexion.mp3-48e8afb3b0a81ae19928d29c4e349e5c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
