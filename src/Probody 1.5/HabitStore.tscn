@@ -1,10 +1,10 @@
 [gd_scene load_steps=17 format=2]
 
+[ext_resource path="res://assets/menus/background.jpg" type="Texture" id=1]
 [ext_resource path="res://assets/fonts/xolonium-regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://HabitStore.gd" type="Script" id=3]
 [ext_resource path="res://Habit.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Score.tscn" type="PackedScene" id=5]
-[ext_resource path="res://assets/Menus/background.jpg" type="Texture" id=6]
 [ext_resource path="res://Exercise.gd" type="Script" id=7]
 [ext_resource path="res://HealthyFood.gd" type="Script" id=8]
 [ext_resource path="res://NoProcessedFood.gd" type="Script" id=9]
@@ -28,7 +28,7 @@ script = ExtResource( 3 )
 [node name="Background" type="Sprite" parent="."]
 position = Vector2( 516, 348 )
 scale = Vector2( 0.160889, 0.160889 )
-texture = ExtResource( 6 )
+texture = ExtResource( 1 )
 __meta__ = {
 "_edit_lock_": true
 }

@@ -21,7 +21,7 @@ func _physics_process(delta):
 func _on_SpawnTimer_timeout():
 	badMoleculeCounter += 1
 	var badMoleculeScene = badMolecule.instance() # Cria o carcinógeno
-	var locationPoint = rng.randi_range(1, 1) 
+	var locationPoint = rng.randi_range(1, 8) 
 	badMoleculeScene.organ = "IntestinesRigidBody"
 	# Escolhe um dentre oito pontos para gerar carcinógenos. Também sorteia a velocidade.
 	if locationPoint == 1:

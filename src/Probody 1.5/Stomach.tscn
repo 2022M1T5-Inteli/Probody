@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://assets/Menus/background.jpg" type="Texture" id=1]
+[ext_resource path="res://assets/menus/background.jpg" type="Texture" id=1]
 [ext_resource path="res://assets/body/stomach.png" type="Texture" id=2]
 
 [node name="Stomach" type="Node2D"]
