@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ReturnMain.gd" type="Script" id=1]
+
+[node name="GameOver" type="Node2D"]
+
+[node name="ReturnMain" type="Button" parent="."]
+margin_right = 1026.0
+margin_bottom = 597.0
+text = "Game over: Clique na tela para voltar ao menu"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="ReturnMain" to="ReturnMain" method="_on_ReturnMain_pressed"]
