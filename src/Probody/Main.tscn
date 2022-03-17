@@ -64,7 +64,6 @@ scale = Vector2( 0.692, 1 )
 texture = ExtResource( 12 )
 
 [node name="BottomBar" parent="." instance=ExtResource( 2 )]
-visible = false
 position = Vector2( 43, 58 )
 
 [node name="Headline" parent="." instance=ExtResource( 3 )]
