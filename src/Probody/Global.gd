@@ -12,9 +12,11 @@ var processedFood = 0.5
 var irresponsableSex = 0.5
 var noMammogram = 0.5
 var noUrologistVisit = 0.5
+var tree
+var gender = 0
 
 # PONTUAÇÃO
-var playerScore = 100
+var playerScore = 0
 
 #  VARIÁVEIS DA TELA PRINCIPAL
 var tutorialHasStarted = false

@@ -17,7 +17,7 @@ var sedentaryCheck = true
 var sedentary = Sprite.new()
 var smokingCheck = true
 var smoking = Sprite.new()
-func _process(delta):
+func _process(_delta):
 	pass
 func _on_HabitsBoughtArea2D_habitsBoughtVisible():
 	

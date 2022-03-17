@@ -45,6 +45,9 @@ margin_bottom = 362.0
 custom_colors/font_color_hover = Color( 0.192157, 0.368627, 0.976471, 1 )
 icon = ExtResource( 3 )
 expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Label" type="Label" parent="."]
 margin_left = 334.0
@@ -82,3 +85,4 @@ margin_bottom = 462.0
 color = Color( 0.454617, 0.363159, 0.78125, 1 )
 
 [connection signal="pressed" from="female" to="." method="_on_female_pressed"]
+[connection signal="pressed" from="male" to="." method="_on_male_pressed"]

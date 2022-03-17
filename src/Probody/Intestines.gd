@@ -14,7 +14,7 @@ func _ready():
 	
 
 # Movimenta Celinha conforme função move_cell em script próprio e impede que ela saia do pulmão.
-func _physics_process(delta):
+func _physics_process(_delta):
 	$Celinha.move_cell($IntestinesRigidBody)
 	
 # Função para criar carcinógenos toda vez que o timer se completar
@@ -57,5 +57,5 @@ func _on_SpawnTimer_timeout():
 # Se o botão voltar for pressionado, mudar a cena para a tela principal
 func _on_ReturnButton_pressed():
 	Global.stop_organ_music() # Para a música
-	get_tree().change_scene("res://Main.tscn")
+	Global.tree = get_tree().change_scene("res://Main.tscn")
 	

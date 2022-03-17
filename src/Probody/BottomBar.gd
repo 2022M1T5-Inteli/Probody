@@ -21,5 +21,5 @@ func _on_Lungs_mouse_exited():
 	$LungCancer.hide()
 
 # Altera o texto entre as idades do avatar
-func _process(delta):
+func _process(_delta):
 	$AgeBracket.text = Global.currentAge

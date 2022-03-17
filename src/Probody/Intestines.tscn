@@ -8,7 +8,6 @@
 [ext_resource path="res://assets/fonts/xolonium-regular.ttf" type="DynamicFontData" id=6]
 [ext_resource path="res://Score.tscn" type="PackedScene" id=7]
 
-
 [sub_resource type="DynamicFont" id=4]
 font_data = ExtResource( 6 )
 
@@ -38,6 +37,7 @@ build_mode = 1
 polygon = PoolVector2Array( 312, 162, 309, 189, 323, 214, 314, 247, 323, 271, 316, 305, 323, 327, 308, 357, 314, 384, 332, 399, 346, 399, 363, 422, 381, 428, 401, 439, 438, 426, 459, 428, 485, 439, 476, 467, 482, 483, 475, 510, 485, 537, 495, 541, 496, 564, 509, 571, 523, 562, 521, 523, 541, 514, 553, 489, 579, 493, 598, 467, 628, 469, 654, 446, 678, 440, 694, 422, 700, 405, 718, 397, 734, 384, 734, 364, 744, 354, 741, 330, 760, 308, 765, 275, 748, 251, 760, 223, 762, 189, 749, 163, 735, 151, 748, 121, 738, 90, 718, 81, 698, 52, 670, 46, 639, 61, 616, 57, 592, 69, 585, 80, 550, 71, 534, 80, 507, 64, 475, 77, 435, 63, 415, 71, 387, 59, 357, 63, 338, 83, 311, 100, 304, 129 )
 
 [node name="Celinha" parent="." instance=ExtResource( 4 )]
+position = Vector2( 612, 160 )
 
 [node name="SpawnTimer" type="Timer" parent="."]
 autostart = true

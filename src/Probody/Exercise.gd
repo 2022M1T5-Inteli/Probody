@@ -3,7 +3,7 @@ var text_position
 func set_price(price):
 	$PriceNumber.text = str(price)
 
-func _process(delta):
+func _process(_delta):
 	if Global.playerScore >= int($PriceNumber.text):
 		$Button.disabled = false
 	

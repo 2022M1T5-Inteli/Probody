@@ -6,14 +6,14 @@ var velocity = Vector2.ZERO
 var isMoving = true
 
 # Controla o movimeno da célula
-func move_cell(organ):
+func move_cell(_organ):
 	velocity = get_velocity()
 	if velocity == Vector2.ZERO:
 		$CelinhaAnimation.frame = 0 # Força célula a retornar à primeira frame ao parar
 		$CelinhaAnimation.stop()
 	else:
 		$CelinhaAnimation.play()
-	var collision = move_and_collide(velocity)
+	var _collision = move_and_collide(velocity)
 
 func get_velocity():
 	var direction = get_direction()
@@ -36,7 +36,7 @@ func get_direction():
 	return direction.normalized() # Normaliza para considerar apenas direção do vetor
 
 # Faz com que Celinha apareça e desapareça confrome clique no botão
-func _on_CelinhaAppear_toggled(button_pressed):
+func _on_CelinhaAppear_toggled(_button_pressed):
 	if visible:
 		visible = false
 		layers = 2

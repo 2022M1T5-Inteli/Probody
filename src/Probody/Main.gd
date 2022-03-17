@@ -9,6 +9,9 @@ func _ready():
 		tutorial()
 	if not Global.musicIsPlaying:
 		Global.play_regular_music()
+	if Global.gender > 0:
+		$FemaleBody.hide()
+		$MaleBody.show()
 
 # Coordena o tutorial
 func tutorial():
@@ -19,5 +22,5 @@ func tutorial():
 	
 # Troca a cena para a loja de hábitos no clique do botão de hábitos.
 func _on_HabitsButton_pressed():
-	get_tree().change_scene("res://HabitStore.tscn")
+	Global.tree = get_tree().change_scene("res://HabitStore.tscn")
 

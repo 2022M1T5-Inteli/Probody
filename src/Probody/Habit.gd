@@ -6,7 +6,7 @@ func set_price(price):
 	$PriceNumber.text = str(price)
 
 # Valida se o hábito pode ser comprado
-func _process(delta):
+func _process(_delta):
 	if Global.playerScore >= int($PriceNumber.text):
 		$Button.disabled = false
 	

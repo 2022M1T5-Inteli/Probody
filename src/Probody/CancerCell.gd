@@ -3,7 +3,7 @@ extends KinematicBody2D
 var growingCounter = 0
 var eatenByCelinha = false
 
-func _process(delta):
+func _process(_delta):
 	if growingCounter < 500: # Aumenta célula cancerosa por certo período segundo um timer
 		var growTime = Timer.new()
 		growTime.set_wait_time(0.1)
@@ -17,4 +17,4 @@ func _process(delta):
 		$BadMoleculeCollisionShape2D.scale.y *= 1.002
 		growingCounter += 1
 	elif not eatenByCelinha: 
-		get_tree().change_scene("res://GameOver.tscn")
+		Global.tree = get_tree().change_scene("res://GameOver.tscn")

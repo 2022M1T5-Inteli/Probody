@@ -44,9 +44,9 @@ func _physics_process(delta):
 				$CollisionShapeAgainstWalls.scale.y *= 1.002
 				growingCounter += 1
 			else: # Traz game over caso a célula não seja destruída em tempo hábil
-				get_tree().change_scene("res://GameOver.tscn")
+				Global.tree = get_tree().change_scene("res://GameOver.tscn")
 	
-func _on_Area2D_input_event(viewport, event, shape_idx):
+func _on_Area2D_input_event(_viewport, event, _shape_idx):
 	# Checa se alguma substância foi clicada com o mouse
 	if currentHitNumber < maximumHitNumber and event is InputEventMouseButton and event.is_pressed():
 		queue_free() # Deleta a substância que foi clicada
