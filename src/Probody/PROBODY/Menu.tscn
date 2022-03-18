@@ -1,0 +1,166 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://assets/fonts/I-pixel-u.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://assets/elements/background.jpg" type="Texture" id=2]
+[ext_resource path="res://assets/fonts/Pixels.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://assets/elements/image__1_-removebg-preview (1).png" type="Texture" id=4]
+[ext_resource path="res://Menu.gd" type="Script" id=5]
+[ext_resource path="res://eyeleft.gd" type="Script" id=6]
+[ext_resource path="res://eyeright.gd" type="Script" id=7]
+[ext_resource path="res://assets/Celia_no_eyes (2).png" type="Texture" id=8]
+[ext_resource path="res://assets/eyes[.png" type="Texture" id=9]
+[ext_resource path="res://cellmvmnt.gd" type="Script" id=10]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 40
+outline_color = Color( 0.529412, 0, 0.968627, 1 )
+extra_spacing_top = -6
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 40
+extra_spacing_top = -6
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 40
+extra_spacing_top = -6
+font_data = ExtResource( 3 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 533.5, 10.5 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 10.5, 302.5 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 512, 301.25 )
+scale = Vector2( 0.157692, 0.133889 )
+texture = ExtResource( 2 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -129.5
+margin_top = -220.0
+margin_right = 129.5
+margin_bottom = 220.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_top = 83.0
+margin_right = 259.0
+margin_bottom = 356.0
+custom_constants/separation = 10
+
+[node name="Title" type="Label" parent="CenterContainer/VBoxContainer"]
+margin_right = 259.0
+margin_bottom = 63.0
+rect_min_size = Vector2( 100, 40 )
+custom_colors/font_outline_modulate = Color( 0.0509804, 0.0156863, 0.611765, 1 )
+custom_constants/shadow_offset_x = 4
+custom_constants/shadow_offset_y = 10
+custom_constants/shadow_as_outline = 3
+custom_fonts/font = SubResource( 1 )
+text = "PROBODY"
+align = 1
+
+[node name="Start" type="Button" parent="CenterContainer/VBoxContainer"]
+modulate = Color( 0.619608, 0.305882, 1, 1 )
+margin_top = 73.0
+margin_right = 259.0
+margin_bottom = 133.0
+rect_min_size = Vector2( 250, 60 )
+custom_colors/font_color_disabled = Color( 0.176471, 0.0588235, 1, 1 )
+custom_colors/font_color_hover = Color( 0.0117647, 0.164706, 1, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "Start"
+
+[node name="Options" type="Button" parent="CenterContainer/VBoxContainer"]
+modulate = Color( 0.619608, 0.305882, 1, 1 )
+margin_top = 143.0
+margin_right = 259.0
+margin_bottom = 203.0
+rect_min_size = Vector2( 200, 60 )
+custom_colors/font_color_hover = Color( 0.0117647, 0.164706, 1, 1 )
+custom_fonts/font = SubResource( 4 )
+text = "Options"
+
+[node name="Exit" type="Button" parent="CenterContainer/VBoxContainer"]
+modulate = Color( 0.619608, 0.305882, 1, 1 )
+margin_top = 213.0
+margin_right = 259.0
+margin_bottom = 273.0
+rect_min_size = Vector2( 180, 60 )
+custom_colors/font_color_hover = Color( 0.0117647, 0.164706, 1, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "Exit"
+
+[node name="Logo" type="Sprite" parent="."]
+modulate = Color( 0.52549, 1, 0.803922, 1 )
+light_mask = 768
+position = Vector2( 504, 96 )
+scale = Vector2( 1.38343, 1.31601 )
+texture = ExtResource( 4 )
+
+[node name="CelinhaMenu" type="KinematicBody2D" parent="."]
+position = Vector2( 192, 440 )
+scale = Vector2( 0.333423, 0.325326 )
+script = ExtResource( 10 )
+
+[node name="CelinhaCollisionShape2D" type="CollisionPolygon2D" parent="CelinhaMenu"]
+position = Vector2( 14.996, 9.22156 )
+polygon = PoolVector2Array( 32.9911, 190.578, -41.9887, 196.726, -107.971, 184.43, -149.96, 156.766, -182.951, 119.88, -206.944, 61.4768, -215.942, 6.14771, -200.946, -79.9198, -164.956, -129.101, -83.9774, -178.283, -17.9952, -196.726, 50.9863, -190.578, 95.9742, -178.283, 134.964, -150.618, 170.954, -92.2152, 182.951, -39.96, 185.95, 12.2954, 176.952, 58.403, 140.962, 116.806, 122.967, 138.323, 86.9766, 165.987, 50.9863, 184.43 )
+
+[node name="Celinha" type="Sprite" parent="CelinhaMenu"]
+texture = ExtResource( 8 )
+
+[node name="left" type="Node2D" parent="CelinhaMenu/Celinha"]
+position = Vector2( -41.9886, -9.22149 )
+script = ExtResource( 6 )
+
+[node name="eyeleft" type="Sprite" parent="CelinhaMenu/Celinha/left"]
+scale = Vector2( 0.04361, 0.0487999 )
+texture = ExtResource( 9 )
+
+[node name="right" type="Node2D" parent="CelinhaMenu/Celinha"]
+position = Vector2( 41.9887, -6.14771 )
+script = ExtResource( 7 )
+
+[node name="eye_right" type="Sprite" parent="CelinhaMenu/Celinha/right"]
+scale = Vector2( 0.0460061, 0.0484687 )
+texture = ExtResource( 9 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 511, 610 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 512.5, -10.5 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 1035, 302.5 )
+shape = SubResource( 6 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( -10.5, 301 )
+shape = SubResource( 6 )
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Exit" to="." method="_on_Exit_pressed"]
