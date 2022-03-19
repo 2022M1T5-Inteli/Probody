@@ -52,7 +52,6 @@ script = ExtResource( 11 )
 [node name="HoverArea" type="CollisionShape2D" parent="HabitsBoughtArea2D"]
 position = Vector2( 32, 191 )
 rotation = -2.27374e-13
-scale = Vector2( 1, 1 )
 shape = SubResource( 3 )
 
 [node name="HabitsBoughtNode" parent="HabitsBoughtArea2D" instance=ExtResource( 10 )]

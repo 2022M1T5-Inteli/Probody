@@ -29,7 +29,6 @@ func _on_ReturnButton_pressed():
 
 # Ao clicar no botão de pausa, a música para, o jogo pausa e a tela de pausa fica visível
 func _on_PauseButton_pressed():
-	Global.pause_regular_music()
 	get_tree().paused = not get_tree().paused
 	visible = not visible
 
