@@ -18,7 +18,7 @@ var tree
 var gender
 
 # PONTUAÇÃO
-var playerScore = 100
+var playerScore = 0
 
 #  VARIÁVEIS DA TELA PRINCIPAL
 var tutorialHasStarted = false
