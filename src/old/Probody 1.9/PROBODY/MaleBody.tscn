@@ -1,0 +1,131 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Body.gd" type="Script" id=1]
+[ext_resource path="res://assets/body/male_body.png" type="Texture" id=2]
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 17.9909
+height = 32.3909
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 16.8823
+height = 33.2912
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 34.5, 23.4167 )
+
+[sub_resource type="CapsuleShape2D" id=6]
+radius = 12.2703
+height = 29.1875
+
+[sub_resource type="CapsuleShape2D" id=7]
+radius = 10.9508
+
+[sub_resource type="CapsuleShape2D" id=8]
+radius = 19.0
+height = 224.0
+
+[sub_resource type="CapsuleShape2D" id=9]
+radius = 19.3333
+height = 220.0
+
+[sub_resource type="CapsuleShape2D" id=10]
+radius = 13.5602
+height = 212.109
+
+[sub_resource type="CapsuleShape2D" id=11]
+radius = 13.56
+height = 207.781
+
+[sub_resource type="CapsuleShape2D" id=12]
+radius = 5.33334
+height = 25.3333
+
+[sub_resource type="CapsuleShape2D" id=13]
+radius = 7.81154
+height = 12.3556
+
+[node name="MaleBody" type="Node2D"]
+position = Vector2( -124, 1 )
+scale = Vector2( 1.5, 1.5 )
+script = ExtResource( 1 )
+
+[node name="Image" type="Sprite" parent="."]
+position = Vector2( 666.667, 274 )
+scale = Vector2( 1.24272, 1.14738 )
+texture = ExtResource( 2 )
+
+[node name="LeftLungArea" type="Area2D" parent="."]
+position = Vector2( 40, 146 )
+
+[node name="LeftLungColisionShape" type="CollisionShape2D" parent="LeftLungArea"]
+position = Vector2( 468.667, -10.6667 )
+rotation = 0.204067
+shape = SubResource( 1 )
+
+[node name="RightLungArea" type="Area2D" parent="."]
+position = Vector2( 40, 145 )
+
+[node name="RightLungCollisionShape" type="CollisionShape2D" parent="RightLungArea"]
+position = Vector2( 516, -5.66669 )
+rotation = 2.81423
+shape = SubResource( 2 )
+
+[node name="InstestinesArea" type="Area2D" parent="."]
+
+[node name="IntestinesCollisionShape" type="CollisionShape2D" parent="InstestinesArea"]
+position = Vector2( 532, 247.333 )
+shape = SubResource( 3 )
+
+[node name="LiverArea" type="Area2D" parent="."]
+
+[node name="LiverCollisionShape" type="CollisionShape2D" parent="LiverArea"]
+position = Vector2( 517.333, 181.333 )
+rotation = 1.12269
+shape = SubResource( 6 )
+
+[node name="StomachArea" type="Area2D" parent="."]
+
+[node name="StomachCollisionShape2D" type="CollisionShape2D" parent="StomachArea"]
+position = Vector2( 548, 196.667 )
+rotation = 0.672609
+shape = SubResource( 7 )
+
+[node name="SkinArea" type="Area2D" parent="."]
+
+[node name="SkinCollisionShape2D" type="CollisionShape2D" parent="SkinArea"]
+position = Vector2( 499.333, 410 )
+shape = SubResource( 8 )
+
+[node name="SkinCollisionShape2D2" type="CollisionShape2D" parent="SkinArea"]
+position = Vector2( 565.333, 410 )
+shape = SubResource( 9 )
+
+[node name="SkinCollisionShape2D3" type="CollisionShape2D" parent="SkinArea"]
+position = Vector2( 462.667, 220.667 )
+rotation = 0.112753
+shape = SubResource( 10 )
+
+[node name="SkinCollisionShape2D4" type="CollisionShape2D" parent="SkinArea"]
+position = Vector2( 602, 215.333 )
+rotation = 6.18648
+shape = SubResource( 11 )
+
+[node name="ProstateArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ProstateArea"]
+position = Vector2( 529.333, 300.667 )
+shape = SubResource( 12 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="ProstateArea"]
+position = Vector2( 530, 274.667 )
+rotation = -1.53172
+shape = SubResource( 13 )
+
+[connection signal="input_event" from="LeftLungArea" to="." method="_on_LeftLungArea_input_event"]
+[connection signal="input_event" from="RightLungArea" to="." method="_on_RightLungArea_input_event"]
+[connection signal="input_event" from="InstestinesArea" to="." method="_on_InstestinesArea_input_event"]
+[connection signal="input_event" from="LiverArea" to="." method="_on_LiverArea_input_event"]
+[connection signal="input_event" from="StomachArea" to="." method="_on_StomachArea_input_event"]
+[connection signal="input_event" from="SkinArea" to="." method="_on_SkinArea_input_event"]
+[connection signal="input_event" from="ProstateArea" to="." method="_on_ProstateArea_input_event"]
