@@ -1,0 +1,76 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://ChooseName.gd" type="Script" id=1]
+[ext_resource path="res://assets/fonts/xolonium-regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://assets/elements/background.jpg" type="Texture" id=3]
+[ext_resource path="res://assets/menus/box.png" type="Texture" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 56
+font_data = ExtResource( 2 )
+
+[sub_resource type="Theme" id=2]
+default_font = SubResource( 1 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 56
+font_data = ExtResource( 2 )
+
+[sub_resource type="Theme" id=6]
+default_font = SubResource( 5 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 35
+font_data = ExtResource( 2 )
+
+[sub_resource type="Theme" id=4]
+default_font = SubResource( 3 )
+
+[node name="ChooseName" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 511, 303 )
+scale = Vector2( 0.16, 0.137778 )
+texture = ExtResource( 3 )
+
+[node name="Box" type="Sprite" parent="."]
+position = Vector2( 510.5, 300.25 )
+scale = Vector2( 0.764222, 0.640709 )
+texture = ExtResource( 4 )
+
+[node name="InsertNameText" type="Label" parent="Box"]
+margin_left = -228.337
+margin_top = -268.843
+margin_right = 256.663
+margin_bottom = -180.843
+theme = SubResource( 2 )
+text = "Insira seu nome:"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InsertNameBox" type="LineEdit" parent="Box"]
+margin_left = -228.0
+margin_top = -131.0
+margin_right = 254.0
+margin_bottom = -44.0
+theme = SubResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Box"]
+margin_left = -61.0
+margin_top = 6.0
+margin_right = 85.0
+margin_bottom = 92.0
+theme = SubResource( 4 )
+text = "OK"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Box/Button" to="." method="_on_Button_pressed"]
