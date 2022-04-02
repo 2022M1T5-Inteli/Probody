@@ -1,0 +1,13 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 466.0
+margin_top = 206.0
+margin_right = 519.0
+margin_bottom = 220.0
+text = "VITÓRIA"
+__meta__ = {
+"_edit_use_anchors_": false
+}
