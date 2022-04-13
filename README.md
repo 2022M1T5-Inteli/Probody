@@ -124,6 +124,50 @@ Para abrir este projeto, você necessida do <a href="https://godotengine.org/dow
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
+IURICODE. GitHub, 2020. Disponível em: https://github.com/iuricode/readme-template. Acesso em: 5 fev. 2022.
+JESUS, Gabriel de. GitHub, 2020. Disponível em: https://github.com/gabrieldejesus/readme-model. Acesso em: 5 fev. 2022.
+SHARE your work. Creative Commons, 2020. Disponível em: https://creativecommons.org/share-your-work/. Acesso em: 5 fev. 2022.
+LINIETSKY, Juan; MANZUR, Ariel. Godot Engine, 2007. Engine open-source para desenvolvimento de jogos. Disponível em: https://godotengine.org/download/. Acesso em: 13 set. 2022.
+PAULINE, Miles. 370343562. DepositPhotos, 2022. Disponível em: https://st3.depositphotos.com/30433694/37034/i/1600/depositphotos_370343562-stock-photo-human-bladder-prostate-isolated-white.jpg. Acesso em: 13 abr. 2022.
+PIKOVIT. 488351984. DepositPhotos, 2022. Disponível em: https://st2.depositphotos.com/5775856/48835/v/1600/depositphotos_488351984-stock-illustration-organs-and-nervous-system.jpg. Acesso em: 13 abr. 2022.
+PIKOVIT. 489813532. DepositPhotos, 2022. Disponível em: https://st2.depositphotos.com/5775856/48981/v/1600/depositphotos_489813532-stock-illustration-organs-and-nervous-system.jpg. Acesso em: 13 abr. 2022.
+MALIJA. 70298479. DepositPhotos, 2022. Disponível em: https://st2.depositphotos.com/1605581/7029/i/950/depositphotos_70298479-stock-photo-blue-abstract-contemporary-texture-background.jpg. Acesso em: 13 abr. 2022.
+HEART free icon. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/heart_3237429?term=heart&page=1&position=47&page=1&position=47&related_id=3237429&origin=search#. Acesso em: 31 mar. 2022.
+METABOLISM free icon. Flaticon, 2022. Disponível em: https://www.flaticon.com/premium-icon/metabolism_2176932?term=metabolism&page=1&position=30&page=1&position=30&related_id=2176932&origin=tag#. Acesso em: 31 mar. 2022.
+CADUCEUS free icon. Flaticon, 2022. Disponível em: https://www.flaticon.com/premium-icon/caduceus_3609896?term=caduceus&page=1&position=44&page=1&position=44&related_id=3609896&origin=search. Acesso em: 1 mar. 2022.
+NO smoking free icon. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/no-smoking_6655280?term=dont%20smoke&page=1&position=8&page=1&position=8&related_id=6655280&origin=search#. Acesso em: 24 fev. 2022.
+HEARTBEAT free icon. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/heartbeat_2791163?term=health&page=1&position=14&page=1&position=14&related_id=2791163&origin=search#. Acesso em: 24 fev. 2022.
+SALAD free icon. Flaticon, 2022. Disponível em: https://www.flaticon.com/premium-icon/salad_3123321?term=healthy%20food&page=1&position=22&page=1&position=22&related_id=3123321&origin=tag. Acesso em: 24 fev. 2022.
+EXERCISE free icon. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/barbell_2936886?term=exercise&page=1&position=59&page=1&position=59&related_id=2936886&origin=search. Acesso em: 24 fev. 2022.
+HUMAN intestine anatomy on white background. Vecteezy, 2022. Disponível em: https://www.vecteezy.com/vector-art/1609618-human-intestine-anatomy-on-white-background. Acesso em: 18 mar. 2022.
+MOLECULE illustration vector. Vecteezy, 2022. Disponível em:https://www.vecteezy.com/vector-art/3281162-molecule-vector-illustration-design. Acesso em: 23 fev. 2022.
+SCIENTIFIC medical infographic human skin layers. Freepik, 2022. Disponível em: https://www.freepik.com/free-vector/scientific-medical-infographic-human-skin-layers_5849144.htm. Acesso em: 18 mar. 2022.
+VARIOUS modern hud flat elements. Freepik, 2022. Disponível em: https://www.freepik.com/free-vector/various-modern-hud-flat-elements-set_9651005.htm#query=user%20interface%20tech&position=0&from_view=search. Acesso em: 18 mar. 2022.
+WINNING game sound effect. Orange Free Sounds, 2022. Disponível em: https://orangefreesounds.com/winning-game-sound-effect/#google_vignette. Acesso em: 18 mar. 2022.
+ARCADE game jump coin. Mixkit, 2022. Disponível em: https://mixkit.co/free-sound-effects/win/. Acesso em: 18 mar. 2022.
+FAST pace typing on mechanical keyboard. Fesliyan Studios, 2022. Disponível em: https://www.fesliyanstudios.com/royalty-free-sound-effects-download/keyboard-typing-6. Acesso em: 25 mar. 2022.
+GOOD result. Freesound, 2022. Disponível em: https://freesound.org/people/unadamlar/sounds/341985/. Acesso em: 18 mar. 2022.
+ACHIEVEMENT bell. Mixkit, 2022. Disponível em: https://mixkit.co/free-sound-effects/win/. Acesso em: 18 mar. 2022.
+ARCADE game jump coin. Mixkit, 2022. Disponível em: https://mixkit.co/free-sound-effects/win/. Acesso em: 18 mar. 2022.
+FALLING game over. Mixkit, 2022. Disponível em:  https://mixkit.co/free-sound-effects/game-over/. Acesso em: 18 mar. 2022.
+BEER icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/premium-icon/beer_2945048?term=beer&page=1&position=41&page=1&position=41&related_id=2945048&origin=tag.  Acesso em: 25 fev. 2022.
+SAUSAGE icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/premium-icon/spicy-sausage_2523528?related_id=2523528&origin=tag. Acesso em: 25 fev. 2022.
+SUNSCREEN icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/suncream_3104922?term=sunscreen&page=1&position=14&page=1&position=14&related_id=3104922&origin=tag. Acesso em: 25 fev. 2022.
+LIVER icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/liver_387591?term=liver&page=1&position=1&page=1&position=1&related_id=387591&origin=tag.  Acesso em: 3 mar. 2022.
+STOMACH icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/stomach_387626?term=stomach&page=1&position=11&page=1&position=11&related_id=387626&origin=tag.  Acesso em: 3 mar. 2022.
+DIGESTIVE system icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/large-intestine_4615338?term=digestive%20system&page=1&position=16&page=1&position=16&related_id=4615338&origin=tag.  Acesso em: 3 mar. 2022.
+UTERUS icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/uterus_3790199?term=uterus&page=1&position=12&page=1&position=12&related_id=3790199&origin=tag.  Acesso em: 3 mar. 2022. 
+PROSTATE icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/prostate_2214994?term=prostate%20cancer&page=1&position=49&page=1&position=49&related_id=2214994&origin=tag.  Acesso em 3 mar. 2022.
+PROSTATE cancer icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/prostate-cancer_5258394?term=prostate%20cancer&page=1&position=30&page=1&position=30&related_id=5258394&origin=tag.  Acesso em: 11 mar. 2022.
+MALE icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/premium-icon/male_2894116?term=male&page=1&position=17&page=1&position=17&related_id=2894116&origin=tag.  Acesso em: 1 abr. 2022.
+FEMENINE icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/femenine_866954?term=female&page=1&position=1&page=1&position=1&related_id=866954&origin=search. Acesso em: 1 abr. 2022.
+SKIN icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/hair_387573?related_id=387573&origin=pack. Acesso em: 3 mar. 2022.
+LUNGS icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/lungs_387593?related_id=387593&origin=pack. Acesso em: 3 mar. 2022.
+PAUSE icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/premium-icon/pause_4194794?term=pause&page=1&position=57&page=1&position=57&related_id=4194794&origin=search. Acesso em: 22 mar. 2022.
+VOLUME icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/free-icon/volume_727269?term=volume&page=1&position=3&page=1&position=3&related_id=727269&origin=search. Acesso em: 24 mar. 2022.
+MUTE icons. Flaticon, 2022. Disponível em: https://www.flaticon.com/premium-icon/mute_1538549?term=volume&page=1&position=38&page=1&position=38&related_id=1538549&origin=search. Acesso em 24 mar. 2022.
+HUMAN organs on poster. Flaticon, 2022. Disponível em: https://www.vecteezy.com/vector-art/294440-human-organs-on-poster. Acesso em 3 mar. 2022.
+3 gaming hq.  Flaticon, 2022. Disponível em: https://freepngimg.com/thumb/xbox/55639-3-gaming-hq-image-free-png.png. Acesso em 29 mar. 2022.
+DIGITAL introspection. Soundimage, 2022. Disponível em: https://soundimage.org/introspective/. Acesso em: 3 mar. 2022.
+8-BIT perplexion. Soundimage, 2022. Disponível em: https://soundimage.org/wp-content/uploads/2017/10/8-Bit-Perplexion.mp3. Acesso em: 1 mar. 2022.
+
