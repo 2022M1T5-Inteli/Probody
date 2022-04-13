@@ -125,8 +125,11 @@ Para abrir este projeto, você necessida do <a href="https://godotengine.org/dow
 Aqui estão as referências usadas no projeto.
 
 IURICODE. GitHub, 2020. Disponível em: https://github.com/iuricode/readme-template. Acesso em: 5 fev. 2022.
+
 JESUS, Gabriel de. GitHub, 2020. Disponível em: https://github.com/gabrieldejesus/readme-model. Acesso em: 5 fev. 2022.
+
 SHARE your work. Creative Commons, 2020. Disponível em: https://creativecommons.org/share-your-work/. Acesso em: 5 fev. 2022.
+
 LINIETSKY, Juan; MANZUR, Ariel. Godot Engine, 2007. Engine open-source para desenvolvimento de jogos. Disponível em: https://godotengine.org/download/. Acesso em: 13 set. 2022.
 PAULINE, Miles. 370343562. DepositPhotos, 2022. Disponível em: https://st3.depositphotos.com/30433694/37034/i/1600/depositphotos_370343562-stock-photo-human-bladder-prostate-isolated-white.jpg. Acesso em: 13 abr. 2022.
 PIKOVIT. 488351984. DepositPhotos, 2022. Disponível em: https://st2.depositphotos.com/5775856/48835/v/1600/depositphotos_488351984-stock-illustration-organs-and-nervous-system.jpg. Acesso em: 13 abr. 2022.
