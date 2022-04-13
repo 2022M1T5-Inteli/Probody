@@ -68,24 +68,15 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 ## 📈 Exemplo de uso
 O jogo inicia com o jogador tendo duas opções (corpo feminino e corpo masculino) e uma delas é escolhida para prosseguir.
-<img src="https://imgur.com/eVPcDZK">
+<img src="https://i.imgur.com/eVPcDZK.png" alt="Tela de escolha de sexo" border="0">
 
 Logo após a escolha de uma das opções, um nome poderá ser escolhido.
-<"https://i.imgur.com/g29FbJO.png">
+<img src="https://i.imgur.com/g29FbJO.png" alt="Tela de escolha de nome" border="0">
 
 Após a escolha do nome, o jogador é direcionado para a tela inicial onde o tempo começará a ser contabilizado. Nesse momento, instruções serão oferecidas a partir da manchete enquanto a barra de vida varia de acordo com a agilidade do jogador em associar os órgãos com a informação transmitida, ao associar, será preciso clicar no órgão específico representado na ilustração do corpo humano.
-<"https://imgur.com/IykQvRc">
+<img src="https://imgur.com/IykQvRc.png" alt="Tela principal" border="0">
 
 Quando o órgão é clicado, é necessário eliminar os carcinógenos indicados pela seta vermelha, os responsáveis por essa eliminação é a Celinha junto ao metabolismo, um bom linfócito incumbido pela defesa do corpo humano e que está identificado com a seta roxa. Cada eliminação possibilita ganhos de pontos e, além dos carcinógenos, há presença de células cancerosas que crescem continuamente e que são responsáveis por acabar com o jogo.
-
-
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado.
-
-Adicione blocos de códigos e, se necessário, screenshots.
-
-Este modelo pode ser copiado e utilizado à vontade.
-
-Através da cópia/clone/ download do repositório, altere os dados do readme.md e carregue os arquivos de seu projeto.
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -95,7 +86,7 @@ Para abrir este projeto, você necessida do <a href="https://godotengine.org/dow
 
 A cada atualização os detalhes devem ser lançados aqui.
 * 0.2.9 - 08/04/2022
-    * MUDANÇA: Refatoração do codigo
+    * MUDANÇA: Refatoração do código
 * 0.2.8 - 02/04/2022
     * MUDANÇA: Atualização do godot projeto
 * 0.2.7 - 30/03/2022
