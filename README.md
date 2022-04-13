@@ -17,7 +17,7 @@ Elisa de Oliveira Flemer, Giovanna Rodrigues, João Furquim de Campos Suarez, Ma
 Probody é um simulador de estratégia biomédico que visa informar jovens de forma lúdica acerca da prevenção contra o câncer.
 <br><br>
 <p align="center">
-<img src="https://i.imgur.com/uPk7hGH.png" alt="PROBODY" border="0">
+<img src="https://imgur.com/a/tCdUbqg" alt="PROBODY" border="0">
   Imagem autoral
 </p>
 
@@ -56,19 +56,10 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>src</b>: Nesta pasta irá todo o código fonte do jogo/sistema, pronto para para ser baixado e modificado.
 
 ## 🛠 Instalação
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
 <b>Windows:</b>
 
 Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa. Só tome cuidado para não fechar o prompt de comando (tela preta) que será aberta simultaneamente. Se você a fechar, o jogo fechará também.
 
 <b>HTML:</b>
 
@@ -87,17 +78,7 @@ Através da cópia/clone/ download do repositório, altere os dados do readme.md
 
 ## 💻 Configuração para Desenvolvimento
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+Para abrir este projeto, você necessida do <a href="https://godotengine.org/download">GODOT 3.4.3</a> and OpenGL 2.1 / OpenGL ES 2.0 compatible hardware. O projeto pode ser importado através do arquivo zipado na pasta "src" ou do arquivo project.godot, localizado dentro da pasta zipada.
 
 ## 🗃 Histórico de lançamentos
 
