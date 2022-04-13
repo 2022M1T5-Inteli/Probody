@@ -83,32 +83,32 @@ Quando o órgão é clicado, é necessário eliminar os carcinógenos indicados 
 Para abrir este projeto, você necessida do <a href="https://godotengine.org/download">GODOT 3.4.3</a> and OpenGL 2.1 / OpenGL ES 2.0 compatible hardware. O projeto pode ser importado através do arquivo zipado na pasta "src" ou do arquivo project.godot, localizado dentro da pasta zipada.
 
 ## 🗃 Histórico de lançamentos
-
-A cada atualização os detalhes devem ser lançados aqui.
+* 0.3.0 - 13/04/2022
+    * MUDANÇA: Executável e código finais
 * 0.2.9 - 08/04/2022
     * MUDANÇA: Refatoração do código
 * 0.2.8 - 02/04/2022
-    * MUDANÇA: Atualização do godot projeto
+    * MUDANÇA: Entregável de código e GDD
 * 0.2.7 - 30/03/2022
-    * ADD: Executaveis para playtest
+    * ADD: Executáveis para playtest
 * 0.2.6 - 26/03/2022
-    * MUDANÇA: Atualização do godot projeto
+    * MUDANÇA: Entregável de código e GDD
 * 0.2.5 - 25/03/2022
     * ADD: Fase Adulta
     *  MUDANÇA: Atualização do GDD
 * 0.2.4 - 19/03/2022
-    * ADD: Comentarios no codigo
+    * ADD: Comentários no código
     * MUDANÇA: Atualização do GDD
 * 0.2.3 - 16/03/2022
-    * ADD: Estomago e Utero
+    * ADD: Estômago e útero
 * 0.2.2 - 15/03/2022
-    * CONSERTO: Bug fix
+    * CONSERTO: Arrumamos bugs
 * 0.2.1 - 12/03/2022
-    * MUDANÇA: Atualização do godot projeto
+    * MUDANÇA: Entregável de código e GDD
 * 0.2.0 - 03/03/2022
-    * MUDANÇA: Atualização do godot projeto
+    * MUDANÇA: Entregável de código e GDD
 * 0.1.1 - 25/02/2022
-    * MUDANÇA: Atualização do godot projeto e GDD
+    * MUDANÇA: Entregável de código e GDD
 * 0.1.0 - 18/02/2022
     * O primeiro lançamento adequado
     * ADD: Primeira Versão do jogo
