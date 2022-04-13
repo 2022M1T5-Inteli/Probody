@@ -22,8 +22,7 @@ Probody é um simulador de estratégia biomédico que visa informar jovens de fo
 </p>
 
 
-Probody é um simulador de estratégia biomédico. Nesse sentido, objetiva ensinar seu público-alvo—isto é, adolescentes—, as principais causas, fatores de risco e modos de prevenção de cânceres. Para esse fim, Probody coloca o jogador nas fronteiras do sistema imunológico, trabalhando ativamente para destruir, conter e mitigar substâncias cancerígenas antes que elas atinjam as células do personagem principal. Ademais, cabe também ao jogador monitorar diferentes partes do corpo, associando certas atividades com uma maior presença de carcinógenos em órgãos relacionados, e selecionar os melhores hábitos saudáveis para contrabalancear um dado fator de risco. Porém, caso falhe em combater os carcinógenos, o jogador ainda terá a chance de recuperar a partida através de uma fase extra ou da troca de pontos por procedimentos de detecção precoce do câncer, como a mamografia ou o exame de próstata. Assim, procura-se demonstrar, também, que o diagnóstico de neoplasia não é uma sentença de morte, e sim apenas um obstáculo com grandes chances de ser superado com o acompanhamento correto.
-A principal motivação para este projeto é o fato de que 30% a 50% dos casos de carcinoma são preveníveis, segundo a Organização Mundial da Saúde. Isso, somado à estatística de que 9,6 milhões de pessoas morreram dessa doença em 2018, justifica inequivocamente a necessidade de ferramentas lúdicas que alcancem gerações mais jovens quanto à prevenção da neoplasia.
+Probody é um simulador de estratégia biomédico. Nesse sentido, objetiva ensinar seu público-alvo—isto é, adolescentes—, as principais causas, fatores de risco e modos de prevenção de cânceres. Para esse fim, Probody coloca o jogador dentro dos órgãos do corpo humano atuando como o metabolismo do avatar e controlando um linfócito, a  protagonista "Celinha", para que combata as substâncias cancerígenas e células cancerosas que aparecerem. Ademais, cabe também ao jogador monitorar diferentes partes do corpo, associando certas atividades com uma maior presença de carcinógenos em órgãos relacionados, e selecionar os melhores hábitos saudáveis para contrabalancear um dado fator de risco. Porém, caso falhe em combater os carcinógenos, o jogador deverá reiniciar o jogo do início. Ainda nesse aspecto, o jogo possui um tutorial que visa explicar ao jogador suas mecânicas para que esse consiga chegar ao final sem enjoar do jogo antes. Dessa forma, o jogo trabalha a temática do câncer de forma leve e que gera em seus jogadores uma mentalidade de prevenção aos maus hábitos que podem gerar prejuízos para a sua saúde.
 
 ## 🛠 Estrutura de pastas
 
@@ -34,7 +33,6 @@ A principal motivação para este projeto é o fato de que 30% a 50% dos casos d
   &emsp;|GDD.docx ou Documentação.docx<br>
 |-->executáveis<br>
   &emsp;|-->windows<br>
-  &emsp;|-->android<br>
   &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
@@ -51,18 +49,13 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>documentos</b>: Aqui estarão todos os documentos do projeto, mas principalmente o <b>GDD (Game Design Document)/Documentação do Sistema</b>. Há uma pasta <b>antigos</b> onde estarão todas as versões antigas da documentação.
 
-<b>executáveis</b>: Aqui estarão todos os executáveis do jogo, prontos para rodar. Há no mínimo 3 pastas, uma para binários <b>Windows</b>, uma para binários <b>android</b> e uma para a <b>Web/HTML</b>
+<b>executáveis</b>: Aqui estarão todos os executáveis do jogo, prontos para rodar. Há no mínimo 2 pastas, uma para binários <b>Windows</b> e uma para a <b>Web/HTML</b>
 
 <b>imagens</b>: Algumas imagens do jogo/sistema e logos prontos para serem utilizados e visualizados.
 
 <b>src</b>: Nesta pasta irá todo o código fonte do jogo/sistema, pronto para para ser baixado e modificado.
 
 ## 🛠 Instalação
-
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
 
 ```sh
 Coloque código do prompt de comnando se for necessário
