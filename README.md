@@ -71,7 +71,7 @@ O jogo inicia com o jogador tendo duas opções (corpo feminino e corpo masculin
 <img src="https://imgur.com/eVPcDZK">
 
 Logo após a escolha de uma das opções, um nome poderá ser escolhido.
-<"https://imgur.com/a/Pv0xTAK">
+<"https://i.imgur.com/g29FbJO.png">
 
 Após a escolha do nome, o jogador é direcionado para a tela inicial onde o tempo começará a ser contabilizado. Nesse momento, instruções serão oferecidas a partir da manchete enquanto a barra de vida varia de acordo com a agilidade do jogador em associar os órgãos com a informação transmitida, ao associar, será preciso clicar no órgão específico representado na ilustração do corpo humano.
 <"https://imgur.com/IykQvRc">
