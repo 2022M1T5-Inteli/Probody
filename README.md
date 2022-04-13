@@ -67,20 +67,36 @@ Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 ## 📈 Exemplo de uso
-O jogo inicia com o jogador tendo duas opções (corpo feminino e corpo masculino) e uma delas é escolhida para prosseguir.
-<img src="https://i.imgur.com/eVPcDZK.png" alt="Tela de escolha de sexo" border="0">
+Ao clicar no botão de start através da tela de menu, o jogador tem duas opções (corpo feminino e corpo masculino) e uma delas é escolhida para prosseguir.
+<img src="https://i.imgur.com/eVPcDZK.png">
 
 Logo após a escolha de uma das opções, um nome poderá ser escolhido.
-<img src="https://i.imgur.com/g29FbJO.png" alt="Tela de escolha de nome" border="0">
+<img src="https://i.imgur.com/g29FbJO.png">
+
+Antes de ser direcionado para a tela inicial, o tutorial é introduzido
+<img src="https://i.imgur.com/IjxeWYD.png">
 
 Após a escolha do nome, o jogador é direcionado para a tela inicial onde o tempo começará a ser contabilizado. Nesse momento, instruções serão oferecidas a partir da manchete enquanto a barra de vida varia de acordo com a agilidade do jogador em associar os órgãos com a informação transmitida, ao associar, será preciso clicar no órgão específico representado na ilustração do corpo humano.
 <img src="https://imgur.com/IykQvRc.png" alt="Tela principal" border="0">
 
-Quando o órgão é clicado, é necessário eliminar os carcinógenos indicados pela seta vermelha, os responsáveis por essa eliminação é a Celinha junto ao metabolismo, um bom linfócito incumbido pela defesa do corpo humano e que está identificado com a seta roxa. Cada eliminação possibilita ganhos de pontos e, além dos carcinógenos, há presença de células cancerosas que crescem continuamente e que são responsáveis por acabar com o jogo.
+Quando o órgão é clicado, é necessário eliminar os carcinógenos indicados pela seta vermelha, os responsáveis (indicados pela seta roxa) por essa eliminação é a Celinha junto ao metabolismo. Cada eliminação possibilita a acumulação de pontos (seta amarela) e, além dos carcinógenos, há presença de células cancerosas (seta azul) que crescem continuamente e que são responsáveis por acabar com o jogo. Já o ícone azul (seta rosa) é o botão para pausar o jogo.
+<img src="https://i.imgur.com/e8ohOVd.png">
+<img src="https://i.imgur.com/LFtC6Js.png">
+
+Caso não consiga eliminar todos os carcinógenos e células cancerosas, uma tela de game over aparecerá e o jogo será resetado ao clicar no botão de reiniciar, direcionando para a tela de menu.
+<img src="https://i.imgur.com/qdqIM1E.png">
+
+Voltando para a tela inicial, é possível identificar ícones seguidos de pop-ups que informa o estado do corpo, riscos e prevenções.
+<img src="https://i.imgur.com/NJjBvaK.png">
+
+As prevenções são os bons hábitos, estes hábitos diminuem as chances de desenvolver cânceres específicos que são abordados no jogo e podem ser comprados com os pontos adquiridos através da loja representado pelo ícone de coração.
+<img src="https://i.imgur.com/Ryzqy2y.png">
+<img src="https://i.imgur.com/oIRhJSJ.png">
+
 
 ## 💻 Configuração para Desenvolvimento
 
-Para abrir este projeto, você necessida do <a href="https://godotengine.org/download">GODOT 3.4.3</a> and OpenGL 2.1 / OpenGL ES 2.0 compatible hardware. O projeto pode ser importado através do arquivo zipado na pasta "src" ou do arquivo project.godot, localizado dentro da pasta zipada.
+Para abrir este projeto, você necessita do <a href="https://godotengine.org/download">GODOT 3.4.3</a> and OpenGL 2.1 / OpenGL ES 2.0 compatible hardware. O projeto pode ser importado através do arquivo zipado na pasta "src" ou do arquivo project.godot, localizado dentro da pasta zipada.
 
 ## 🗃 Histórico de lançamentos
 * 0.3.0 - 13/04/2022
