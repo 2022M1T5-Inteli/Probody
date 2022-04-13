@@ -4,9 +4,7 @@
 <a href= "https://www.inteli.edu.br/"><img src="https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
-# Probody
-
-## Colossus-MK1
+# Probody, by Colossus-MK1
 
 ## Integrantes: 
 Elisa de Oliveira Flemer, Giovanna Rodrigues, João Furquim de Campos Suarez, Marcos Vinicius Alves de Moura, Thomas Barton e Yasmin Vitória Rocha de Jesus
@@ -39,9 +37,7 @@ Probody é um simulador de estratégia biomédico. Nesse sentido, objetiva ensin
 |readme.md<br>
 |license.txt<br>
 
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+<b>README.MD</b>: Arquivo que serve como guia e explicação geral do projeto. O mesmo que você está lendo agora.
 
 <b>license.txt</b>: Arquivo de licença do projeto, para que qualquer um possa entender até que ponto podem utilizar seu projeto. Aconselhável utilizar a licença Creative Commons Attribution 4.0 International.
 
