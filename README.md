@@ -4,7 +4,9 @@
 <a href= "https://www.inteli.edu.br/"><img src="https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
-# Probody, by Colossus-MK1
+# Probody
+
+## Colossus-MK1
 
 ## Integrantes: 
 Elisa de Oliveira Flemer, Giovanna Rodrigues, João Furquim de Campos Suarez, Marcos Vinicius Alves de Moura, Thomas Barton e Yasmin Vitória Rocha de Jesus
@@ -37,7 +39,9 @@ Probody é um simulador de estratégia biomédico. Nesse sentido, objetiva ensin
 |readme.md<br>
 |license.txt<br>
 
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral do projeto. O mesmo que você está lendo agora.
+A pasta raiz contem dois arquivos que devem ser alterados:
+
+<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
 
 <b>license.txt</b>: Arquivo de licença do projeto, para que qualquer um possa entender até que ponto podem utilizar seu projeto. Aconselhável utilizar a licença Creative Commons Attribution 4.0 International.
 
@@ -79,19 +83,36 @@ Para abrir este projeto, você necessida do <a href="https://godotengine.org/dow
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui.
-
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
+* 0.2.9 - 08/04/2022
+    * MUDANÇA: Refatoração do codigo
+* 0.2.8 - 02/04/2022
+    * MUDANÇA: Atualização do godot projeto
+* 0.2.7 - 30/03/2022
+    * ADD: Executaveis para playtest
+* 0.2.6 - 26/03/2022
+    * MUDANÇA: Atualização do godot projeto
+* 0.2.5 - 25/03/2022
+    * ADD: Fase Adulta
+    *  MUDANÇA: Atualização do GDD
+* 0.2.4 - 19/03/2022
+    * ADD: Comentarios no codigo
+    * MUDANÇA: Atualização do GDD
+* 0.2.3 - 16/03/2022
+    * ADD: Estomago e Utero
+* 0.2.2 - 15/03/2022
+    * CONSERTO: Bug fix
+* 0.2.1 - 12/03/2022
+    * MUDANÇA: Atualização do godot projeto
+* 0.2.0 - 03/03/2022
+    * MUDANÇA: Atualização do godot projeto
+* 0.1.1 - 25/02/2022
+    * MUDANÇA: Atualização do godot projeto e GDD
+* 0.1.0 - 18/02/2022
     * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
+    * ADD: Primeira Versão do jogo
+* 0.0.1 - 14/02/2022
     * Trabalho em andamento
+    * ADD: Criado GDD.docs
 
 ## 📋 Licença/License
 
