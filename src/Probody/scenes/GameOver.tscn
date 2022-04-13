@@ -1,0 +1,91 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://assets/fonts/xolonium-regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://scripts/GameOver.gd" type="Script" id=2]
+[ext_resource path="res://assets/background.jpg" type="Texture" id=3]
+[ext_resource path="res://assets/pause-box.png" type="Texture" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=6]
+default_font = SubResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=7]
+default_font = SubResource( 3 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 20
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=8]
+default_font = SubResource( 5 )
+
+[node name="GameOver" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 513, 299 )
+scale = Vector2( 0.161538, 0.139111 )
+texture = ExtResource( 3 )
+
+[node name="BackgroundFade" type="ColorRect" parent="."]
+margin_left = -26.0
+margin_top = -26.0
+margin_right = 1050.0
+margin_bottom = 646.0
+rect_rotation = -0.855843
+color = Color( 0.0117647, 0.027451, 0.2, 0.729412 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Box" type="Sprite" parent="."]
+position = Vector2( 515, 300 )
+scale = Vector2( 1.54955, 1.608 )
+texture = ExtResource( 4 )
+
+[node name="Title" type="Label" parent="Box"]
+margin_left = -175.0
+margin_top = -90.0
+margin_right = 181.0
+margin_bottom = -41.0
+theme = SubResource( 6 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Ops!"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text" type="Label" parent="Box"]
+margin_left = -245.878
+margin_top = -38.5572
+margin_right = 254.122
+margin_bottom = 14.4428
+theme = SubResource( 7 )
+text = "Seus hábitos não estão
+muito saudáveis... 
+Vamos tentar de novo?"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RestartButton" type="Button" parent="Box"]
+margin_left = -52.2733
+margin_top = 37.3134
+margin_right = 49.7267
+margin_bottom = 68.3134
+theme = SubResource( 8 )
+text = "Reiniciar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Box/RestartButton" to="." method="_on_RestartButton_pressed"]

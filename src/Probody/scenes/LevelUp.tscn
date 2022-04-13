@@ -1,0 +1,84 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scripts/LevelUp.gd" type="Script" id=1]
+[ext_resource path="res://assets/fonts/xolonium-regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://assets/background.jpg" type="Texture" id=3]
+[ext_resource path="res://assets/pause-box.png" type="Texture" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+font_data = ExtResource( 2 )
+
+[sub_resource type="Theme" id=4]
+default_font = SubResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 2 )
+
+[sub_resource type="Theme" id=5]
+default_font = SubResource( 3 )
+
+[node name="LevelUp" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 513, 299 )
+scale = Vector2( 0.161538, 0.139111 )
+texture = ExtResource( 3 )
+
+[node name="BackgroundFade" type="ColorRect" parent="."]
+margin_left = -26.0001
+margin_top = -21.0001
+margin_right = 1050.0
+margin_bottom = 651.0
+rect_rotation = -0.855843
+color = Color( 0.0117647, 0.027451, 0.2, 0.729412 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Box" type="Sprite" parent="."]
+position = Vector2( 515, 300 )
+scale = Vector2( 1.54955, 1.608 )
+texture = ExtResource( 4 )
+
+[node name="Title" type="Label" parent="Box"]
+margin_left = -175.0
+margin_top = -90.0
+margin_right = 181.0
+margin_bottom = -41.0
+theme = SubResource( 4 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Parabéns!"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Text" type="Label" parent="Box"]
+margin_left = -245.878
+margin_top = -38.5572
+margin_right = 254.122
+margin_bottom = 14.4428
+theme = SubResource( 5 )
+text = "Você passou de nível!
+Nunca se esqueça de conferir a 
+loja de hábitos
+"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="Box"]
+margin_left = -45.8198
+margin_top = 34.8259
+margin_right = 61.1802
+margin_bottom = 74.8259
+text = "Próximo>>"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Box/Button" to="." method="_on_Button_pressed"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Winning-game-sound-effect.mp3-5ca0509a7bf0a99198dd51075363ae5b.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/Winning-game-sound-effect.mp3"
+dest_files=[ "res://.import/Winning-game-sound-effect.mp3-5ca0509a7bf0a99198dd51075363ae5b.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
