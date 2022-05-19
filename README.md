@@ -28,14 +28,16 @@ Probody é um simulador de estratégia biomédico. Nesse sentido, objetiva ensin
 
 -Raiz<br>
 |<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|GDD.docx ou Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
+|--> documentos<br>
+  &emsp;|--> antigos<br>
+  &emsp;|--> GDD.docx<br>
+  &emsp;|--> GDD.pdf
+|--> executáveis<br>
+  &emsp;|--> windows<br>
+  &emsp;|--> HTML<br>
+|--> imagens<br>
+|--> src<br>
+  &emsp;|--> Probody<br>
 |readme.md<br>
 |license.txt<br>
 
